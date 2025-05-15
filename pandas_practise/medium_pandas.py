@@ -32,3 +32,4 @@ merged_df = pd.merge(person_df, address_df, on='personId', how='left')
 
 result = merged_df[['firstName', 'lastName', 'city', 'state']]
 print(result)
+ 
